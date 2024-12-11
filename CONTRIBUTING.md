@@ -10,15 +10,11 @@ Thank you for your interest in contributing to the Orange Cameroon Mobile App! W
 - [Coding Standards](#coding-standards)
 - [Reporting Bugs](#reporting-bugs)
 - [Feature Requests](#feature-requests)
+- [Communication](#communication)
 
 ## Code of Conduct
 
-We expect all contributors to adhere to our Code of Conduct. Please ensure you:
-- Use welcoming and inclusive language
-- Respect different viewpoints and experiences
-- Accept constructive criticism gracefully
-- Focus on what's best for the community
-- Show empathy towards other community members
+Our project adheres to a Code of Conduct that all contributors are expected to follow. Please read [CODE_OF_CONDUCT.md](docs/CODE_OF_CONDUCT.md) before contributing.
 
 ## Getting Started
 
@@ -36,86 +32,65 @@ We expect all contributors to adhere to our Code of Conduct. Please ensure you:
    git checkout -b feature/your-feature-name
    ```
 
+For detailed setup instructions and development environment configuration, please refer to our [Development Process Guide](docs/DEVELOPMENT_PROCESS.md).
+
 ## Development Process
 
-1. Ensure you're working with the latest code:
-   ```bash
-   git pull upstream main
-   ```
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Make your changes
-4. Test your changes thoroughly:
-   ```bash
-   flutter test
-   ```
+We follow a structured development process to ensure code quality and maintainability. Please read our [Development Process Guide](docs/DEVELOPMENT_PROCESS.md) for detailed information about:
+
+- Development environment setup
+- Branching strategy
+- Development workflow
+- Testing requirements
+- Code review process
+- Release process
 
 ## Pull Request Process
 
-1. Update the README.md with details of changes if needed
-2. Follow the commit message convention:
-   - feat: (new feature)
-   - fix: (bug fix)
-   - docs: (documentation changes)
-   - style: (formatting, missing semi-colons, etc)
-   - refactor: (refactoring code)
-   - test: (adding tests, refactoring tests)
-   - chore: (updating grunt tasks etc)
-3. Ensure your PR description clearly describes the changes
-4. Link any related issues using keywords (fixes #123)
+1. Follow the [Coding Standards](docs/CODING_STANDARDS.md)
+2. Update documentation as needed
+3. Test your changes thoroughly
+4. Create a Pull Request with a clear description
+5. Wait for code review and address any feedback
 
 ## Coding Standards
 
-- Follow the official [Flutter style guide](https://flutter.dev/docs/development/tools/formatting)
-- Use meaningful variable and function names
-- Write comments for complex logic
-- Include documentation for public APIs
-- Maintain widget tree structure clarity
-- Keep files focused and single-responsibility
+We maintain high coding standards to ensure code quality and consistency. Please review our [Coding Standards Guide](docs/CODING_STANDARDS.md) for detailed information about:
 
-### Flutter-specific Guidelines
-
-1. State Management:
-   - Use recommended state management solutions (Provider/Bloc)
-   - Keep business logic separate from UI
-   - Minimize widget rebuilds
-
-2. Widget Structure:
-   - Break down large widgets into smaller, reusable components
-   - Use const constructors when possible
-   - Implement proper error handling
-
-3. Asset Management:
-   - Use proper asset organization
-   - Optimize images and media files
-   - Follow the asset naming convention
+- Code formatting
+- Naming conventions
+- Architecture guidelines
+- Testing requirements
+- Documentation standards
+- Performance guidelines
 
 ## Reporting Bugs
 
-When reporting bugs, please include:
-1. Description of the bug
-2. Steps to reproduce
-3. Expected behavior
-4. Screenshots (if applicable)
-5. Device/OS information
-6. Flutter version
-7. Any relevant logs
+If you find a bug, please report it by creating an issue using our [Bug Report Template](docs/BUG_REPORT_TEMPLATE.md). Include as much information as possible:
+
+- Detailed description of the issue
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots if applicable
+- Device and environment information
+- Possible solutions if you have any
 
 ## Feature Requests
 
-Feature requests are welcome! Please provide:
-1. Clear description of the feature
-2. Use cases
-3. Expected behavior
-4. Mock-ups/wireframes (if applicable)
+We welcome feature requests! Please use our [Feature Request Template](docs/FEATURE_REQUEST_TEMPLATE.md) to submit new feature ideas. Include:
+
+- Clear description of the problem
+- Proposed solution
+- Use cases
+- Mock-ups/wireframes if applicable
+- Success criteria
 
 ## Communication
 
 - Use GitHub Issues for bug reports and feature requests
 - Join our [Discord community](https://discord.gg/orangecameroon) for discussions
 - Follow us on [Twitter](https://twitter.com/orangecameroon) for updates
+- Email us at [support@orange.cm](mailto:support@orange.cm) for sensitive issues
 
 ## License
 
@@ -123,4 +98,4 @@ By contributing to the Orange Cameroon Mobile App, you agree that your contribut
 
 ---
 
-Thank you for contributing to make the Orange Cameroon Mobile App better! 🎉
+Thank you for contributing to make the Orange Cameroon Mobile App better! 
